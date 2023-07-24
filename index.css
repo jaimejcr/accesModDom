@@ -1,0 +1,52 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Estilos para el contenedor de los botones */
+  .section {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para los botones */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #4285f4;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #356fed;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Opcional: Estilos para cambiar colores en botones pares e impares */
+  button:nth-child(even) {
+    background-color: #fbbc05;
+  }
+  
+  button:nth-child(odd) {
+    background-color: #ea4335;
+  }
+  
